@@ -1,0 +1,282 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+
+/* Customer SingUp or Banker SingUp Page Styling */
+
+.signUpContainer {
+  width: 100%;
+  height: 936px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signUpContainer .box {
+  width: 700px;
+  height: 670px;
+  padding: 20px 40px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgb(167, 167, 167);
+}
+.signUpContainer .box h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+.signUpContainer .box .btn1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.signUpContainer .box .btn1 p {
+  padding-top: 20px;
+}
+.signUpContainer .box a {
+  text-decoration: none;
+}
+.signUpContainer .box .loginLink {
+  cursor: pointer;
+  font-weight: 800;
+}
+
+
+
+/* Login Page Styling */
+
+.signUpContainer .loginBox {
+  width: 500px;
+  height: 450px;
+}
+.signUpContainer .loginBox h1 {
+  padding-bottom: 40px;
+}
+.signUpContainer .loginBox .btn1 {
+  padding-top: 30px;
+}
+.signUpContainer .loginBox .btn1 a {
+  text-decoration: none;
+}
+
+
+
+
+/* Navbar Page Styling */
+
+.mainNavbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.mainNavbar a:hover {
+  color: rgb(255, 0, 51);
+}
+
+
+
+
+
+/* Customer Home Page Styling */
+
+.homeContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homeContainer .inner_homeContainerBox .addCustomerBtn {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homeContainer .inner_homeContainerBox .addCustomerBtn button {
+  width: 300px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homeContainer .inner_homeContainerBox .addCustomerBtn button span {
+  font-size: 30px;
+  font-weight: 800;
+  padding-right: 9px;
+  padding-bottom: 3px;
+}
+.homeContainer .inner_homeContainerBox {
+  width: 80%;
+  height: 700px;
+  margin-top: 34px;
+  position: relative;
+}
+.homeContainer .inner_homeContainerBox .heading {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(243, 240, 240);
+}
+.homeContainer .inner_homeContainerBox table {
+  position: relative;
+  margin-top: 40px;
+}
+
+
+
+
+
+/* Add Customer Page Styling */
+
+.bigBox {
+  width: 100%;
+  height: 936px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bigBox .box {
+  width: 700px;
+  height: 745px;
+  padding: 20px 40px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgb(167, 167, 167);
+}
+.bigBox .box h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+.bigBox .box .btn1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.bigBox .box .btn1 p {
+  padding-top: 20px;
+}
+.bigBox .box a {
+  text-decoration: none;
+}
+.bigBox .box .loginLink {
+  cursor: pointer;
+  font-weight: 800;
+}
+
+
+
+
+
+/* Add Item Customer Page Styling */
+
+.homeContainer .inner_homeContainerBox .allInputs {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  margin-top: 30px;
+  flex-direction: column;
+}
+.homeContainer .inner_homeContainerBox .allInputs .bottom_allInputs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  margin-top: 30px;
+  flex-direction: row;
+}
+.homeContainer .inner_homeContainerBox .allInputs .oneBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 350px;
+  justify-content: space-around;
+}
+.homeContainer .inner_homeContainerBox .allInputs select {
+  width: 200px;
+}
+.homeContainer .inner_homeContainerBox .allInputs input {
+  width: 200px;
+}
+.homeContainer .inner_homeContainerBox .allInputs button {
+  margin-top: 12px;
+}
+
+
+
+
+
+/* Add Item Page Styling */
+
+.bigBox .addItemsBox {
+  height: 810px;
+}
+
+
+
+
+
+/* Generate Bill Page Styling */
+
+
+.billContainer {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.billContainer .inner_billContainer {
+  width: 80%;
+  box-shadow: 0px 0px 10px rgb(161, 160, 160);
+  padding: 30px 10px;
+}
+.billContainer .inner_billContainer h1 {
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+}
+.billContainer .inner_billContainer .top_billContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  font-size: 18px;
+  font-weight: 800;
+  color: rgb(75, 75, 75);
+}
+.billContainer .inner_billContainer .top_billContainer p span {
+  font-size: 24px;
+  font-weight: 800;
+  color: rgb(20, 20, 20);
+  padding-left: 4px;
+}
+.billContainer .inner_billContainer .right_billContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(75, 75, 75);
+}
+.billContainer .inner_billContainer .right_billContainer p:nth-child(4) {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.billContainer .inner_billContainer .right_billContainer p:nth-child(4) span {
+  font-size: 30px;
+}

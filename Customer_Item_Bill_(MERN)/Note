@@ -1,0 +1,16 @@
+/* --------------  Customer_Item_Bill Generate App (MERN Based Project) ---------------- */
+
+
+
+
+## Note :-   
+
+    For FrontEnd :- 
+        a) Firstly Install Node Packages through (npm i).
+
+    For BackEnd :- 
+        a) Firstly Install Node Packages through (npm i).
+        b) Port - 4000
+        c) Firstly attached your mongodb link.
+        d) Write Your JWT_KEY like "dkfj89fu9djf9djf9d"
+             (because Port, mongodb link & JWT_KEY important data are written in the .env file.)
